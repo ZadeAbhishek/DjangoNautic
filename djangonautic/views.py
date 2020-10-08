@@ -6,5 +6,5 @@ def home(request):
     return render(request,'homepage.html')
 
 def about(request):
-    #return HttpResponse("this is about Request")
+    #return HttpResponse("thi aassdsds is about Request")
     return render(request,'about.html')
