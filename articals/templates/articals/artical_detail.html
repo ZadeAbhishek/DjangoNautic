@@ -1,0 +1,12 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+<div  class="artical-detail">
+ <div class = "artical">
+   <img class = "img-rounded" src="{{MEDIA_URL}}{{artical.thumb.url}}" alt="THUMB"/>
+   <h2>{{artical.title}}</h2>
+   <p>{{artical.body}}</p>
+   <p>{{artical.date}}</p>
+ </div>
+</div>
+{% endblock %}
